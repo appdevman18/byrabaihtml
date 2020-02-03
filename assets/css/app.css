@@ -1,0 +1,122 @@
+.navbar-brand {
+  color: #fff;
+}
+.top {
+	padding: 0.5rem 0;
+	background-color: #000000;
+	color: #ccc;
+}
+a.top_icon_link {
+	text-decoration: none;
+}
+.top_contacts {
+	margin-right: 1rem;
+}
+.top_icons {
+	/*margin-top: 0.5rem;*/
+}
+.fa-map-marker-alt,
+.fa-mobile-alt,
+.fa-telegram,
+.fa-whatsapp {
+	margin-right: 1rem;
+	color: #fbb034;
+	font-size: 1.8rem;
+	cursor: pointer;
+}
+.front {
+	height: 80vh;
+	background-image: url(../img/slide_01.jpg);
+  background-size: cover;
+  color: #fff;
+}
+ul.navbar-nav.ml-auto li.nav-item a.nav-link,
+a.navbar-brand {
+	/*color: #fff;*/
+	font-size: 1.2rem;
+}
+.intro {
+	padding: 2rem 0;
+}
+.card {
+	margin-bottom: 2rem;
+	width: 18rem;
+}
+.card_icon {
+	margin: 1rem 0;
+	font-size: 2rem;
+}
+.card_price {
+	font-size: 3rem;
+	line-height: 1rem;
+}
+
+.map {
+  height: 300px;
+}
+
+
+/*style for contact and popup*/
+  .popup_overlay{
+    display: none;
+    background: rgba(0,0,0,.9);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+  }
+  .popup{
+    display: none;
+    background: #2B2B2B;
+    width: 300px;
+    min-height: 200px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -160px;
+    margin-top: -10px;
+    border: 1px solid #FF8A00;
+    z-index: 10001;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+  }
+  .popup_title{
+    padding: 1em;
+    position: relative;
+  }
+  .popup_input {
+    padding: 0.5em;
+  }
+  .closer{
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+  }
+  .popup_span {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  button[type="submit"]:disabled {
+    opacity: .5;
+	cursor: default;
+  }
+  .popup form#form.contact div.popup_input a {
+	  color: #3CB0FD;
+  }
+
+
+.toTop {
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    font-size: 3em;
+  }
